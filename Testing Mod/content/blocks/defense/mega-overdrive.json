@@ -1,0 +1,29 @@
+{
+	"name": "Mega Overdrive",
+	"description": "More Powerfull Overdrive Projector Can Be Unstable.",
+	"type": "OverdriveProjector",
+	"size": 2,
+	"tier": 4,
+	"reload": 8,
+	"buildCostMultiplier": 0.4,
+	"range": 300,
+	"speedBoost": 6969,
+	"liquidBoostIntensity": 2,
+	"consumes": {
+		"power": 2.5,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.8,
+			"booster": true
+			"optional": true
+		}
+		},
+	"requirements": [
+		{ "item": "copper", "amount": 435 },
+		{ "item": "matterialmatter", "amount": 425 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "electrum", "amount": 200 }
+	],
+	"category": "effect",
+	"research": "overdrive-projector"
+}

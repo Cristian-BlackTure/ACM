@@ -1,0 +1,27 @@
+type: UnitFactory
+name: Miner Drone Crafter T5
+description: Crafts T5 Miner Drones.
+health: 360
+size: 3
+requirements: [
+   copper/250
+   electrum/5
+]
+
+plans: [
+    {
+        unit: minertronet5
+        requirements: [
+            silicon/50
+            electrum/1
+        ]
+        time: 2
+    }
+]
+
+
+category: units
+consumes: {
+    power:1.2
+}
+research: air-factory

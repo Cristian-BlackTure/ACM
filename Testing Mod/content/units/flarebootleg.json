@@ -1,0 +1,41 @@
+type: flying
+name: Flare
+description: "Fires standard bullets at nearby ground targets."
+speed: 2.7
+accel: 0.08
+drag: 0.04
+flying: true
+health: 70
+engineOffset: 5.75
+engineSize: 1
+hitSize: 9
+itemCapacity: 10
+weapons: [
+{
+  name: flareweapon
+  x: 2
+  y: 0
+  reload: 20
+  rotate: false
+  alternate: true
+  mirror: true
+  shootSound: Sounds.pew
+  bullet: {
+    type: BasicBulletType
+    speed: 5
+    damage: 9
+    lifetime: 45
+    width: 7
+    height: 9
+    ammoMultiplier: 2
+}
+}
+]
+
+research: {
+    parent: air-factory
+    requirements:
+    [
+        {item: silicon, amount: 15}
+    ]
+}
