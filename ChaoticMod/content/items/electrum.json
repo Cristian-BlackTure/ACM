@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Electro Ingot",
+	"description": "Surge and power mixes to make this material.",
+	"cost": 2.5,
+	"color": "dcd16b"
+}

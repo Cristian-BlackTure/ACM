@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Matterial Matter",
+	"description": "An extreme radioactive material used to make machines and turrets.",
+	"cost": 2.5,
+	"color": "800080"
+}
