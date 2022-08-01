@@ -1,0 +1,32 @@
+type: UnitFactory
+name: T6 D.E.V.E Constructor
+description: Produces D.E.V.E
+health: 2000
+size: 16
+requirements: [
+   electrum/1000
+   matterialmatter/500
+   copper/500
+   lead/500
+   titanium/1000
+]
+
+plans: [
+    {
+        unit: deve
+        requirements: [
+            silicon/1200
+            electrum/1000
+            plastanium/5000
+            matterialmatter/500
+        ]
+        time: 14400
+    }
+]
+
+
+category: units
+consumes: {
+    power:50
+}
+research: air-factory

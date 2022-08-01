@@ -1,0 +1,34 @@
+name: D.E.V.E
+description: Heavy War Machine 
+speed: 1.69
+canDrown: false
+hitSize: 26
+rotateSpeed: 1.65
+health: 50000
+armor: 50000
+mechStepParticles: true
+stepShake: 0.75
+mechFrontSway: 1.9
+mechSideSway: 0.6
+weapons: [
+{
+  name: deve-weapon
+  top: false
+  x: 21.5
+  y: 1
+  shootY: 11
+  reload: 3
+  recoil: 5
+  shake: 2
+  shootSound: lasershoot 
+  bullet: {
+    type: LaserBoltBulletType
+    speed: 10
+    damage: 650
+    lifetime: 45
+    width: 10
+    height: 10
+    ammoMultiplier: 5
+}
+}
+]
