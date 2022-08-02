@@ -1,0 +1,54 @@
+type: flying
+name: K.I.V.I
+description: "Literaly Flying Crawler."
+speed: 5.69
+accel: 0.08
+drag: 0.04
+flying: true
+health: 70
+engineOffset: 5.75
+engineSize: 1
+hitSize: 9
+itemCapacity: 10
+weapons: [
+{
+  name: ignition-rockets
+  x: 0
+  y: 0
+  reload: 30
+  rotate: false
+  alternate: true
+  mirror: false
+  top: true
+  shootSound: missile
+  ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    frontColor: FFAA5F
+    backColor: FFAA5F
+    trailColor: FFAA5F
+    speed: 100
+    damage: 25
+    lifetime: 40
+    width: 10
+    height: 10
+    splashDamage: 35
+    splashDamageRadius: 40
+    status: burning
+    makeFire: true
+    incendAmount: 1
+    fragBullets: 4
+    fragBullet: fireball
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion 
+}
+}
+]
+
+research: {
+    parent: air-factory
+    requirements:
+    [
+        {item: silicon, amount: 15}
+    ]
+}

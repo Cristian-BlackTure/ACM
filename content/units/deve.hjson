@@ -1,6 +1,8 @@
 name: D.E.V.E
 description: Heavy War Machine 
-speed: 1.69
+speed: 0.69
+canBoost: true
+boostMultipler: 2.0
 canDrown: false
 hitSize: 26
 rotateSpeed: 1.65

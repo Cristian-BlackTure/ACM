@@ -1,6 +1,7 @@
+name: Miner Drone T5
 type: flying
 flying: true
-controller: BuilderAI
+defaultController: MinerAI
 hitSize: 15
 health: 560
 speed: 3.8
@@ -15,7 +16,7 @@ mineTier: 5
 weapons: [
   {
     name: intensity-weapon
-    top: flase
+    top: false
     x: 10
     y: 0
     reload: 10
