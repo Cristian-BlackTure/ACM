@@ -7,11 +7,29 @@
     "speed": 1.2,
     "drag": 0.13,
     "armor": 1,
-    "hitSize": 11,
+    "hitSize": 9.5,
     "health": 360,
     "accel": 0.4,
     "rotateSpeed": 3.4,
     "trailLength": 15,
+    weapons: [
+    {
+        name: acp-weapon
+        reload: 24
+        rotate: true
+        x: 0
+        y: 0
+        mirror: false
+        top: true
+        bullet: {
+            bullet: BasicBulletType
+            damage: 250
+            speed: 8
+            width: 5
+            height: 5
+            lifetime: 240
+        }
+    }]
 "abilities": [
         {
             "type": "mindustry.entities.abilities.ForceFieldAbility",
