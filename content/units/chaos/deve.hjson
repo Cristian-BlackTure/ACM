@@ -1,8 +1,8 @@
 name: D.E.V.E
 description: Heavy War Machine 
-speed: 0.69
+speed: 0.45
 canBoost: true
-boostMultipler: 2.0
+boostMultipler: 10
 canDrown: false
 hitSize: 26
 rotateSpeed: 1.65
@@ -18,19 +18,23 @@ weapons: [
   top: false
   x: 21.5
   y: 1
+  mirror: true
   shootY: 11
-  reload: 3
+  reload: 25
+  rotate: true
   recoil: 5
-  shake: 2
+  shake: 3
   shootSound: lasershoot 
   bullet: {
     type: LaserBoltBulletType
+    sprite: another-chaotic-mod-deveball
     speed: 10
     damage: 650
-    lifetime: 45
-    width: 10
-    height: 10
-    ammoMultiplier: 5
+    lifetime: 100
+    width: 30
+    height: 30
+    ammoMultiplier: 10
 }
 }
 ]
+

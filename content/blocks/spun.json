@@ -1,8 +1,8 @@
 type: GenericCrafter
-name: Matterial Generator
-description: amog us
+name: Super Surge Uncompressor
+description: Uses Surge-Alloy to make Electro Ingots.
 liquidCapacity: 25
-size: 2
+size: 4
 hasPower: true
 hasLiquids: false
 hasItems: true
@@ -13,14 +13,13 @@ consumes: {
 	items: {
 		items: [
 		supsurge/1
-                supsilicon/10
 	     	]
     		}
 		}
 		
 		requirements: [
 		copper/85
-		electrum/35
+		lead/35
 		titanium/15
 		silicon/15
 		]
@@ -28,4 +27,4 @@ consumes: {
 		research: silicon-smelter
 		idleSound: respawning
 		idleSoundVolume: 0.6
-		outputItem:  matterialmatter/3
+		outputItem:  surge-alloy/10

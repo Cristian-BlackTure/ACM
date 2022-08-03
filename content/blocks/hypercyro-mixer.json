@@ -1,0 +1,26 @@
+name: Hyper Cyro Mixer
+type: GenericCrafter
+size: 2
+craftTime: 30
+hasPower: true
+liquidCapacity: 69
+outputLiquid: hypercyro/240
+consumes: {
+  power: 1.75
+  items: {
+    items: [
+      titanium/4
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 1.0
+  }
+}
+requirements: [
+  lead/120
+  silicon/75
+  titanium/45
+]
+category: crafting
+research: cryofluid-mixer

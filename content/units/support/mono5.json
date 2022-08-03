@@ -1,36 +1,37 @@
-type: legs
-flying: false
-controller: BuilderAI
+name: Poly T5
+type: flying
+flying: true
+defaultController: BuilderAI
 hitSize: 15
-health: 50000
-speed: 4.8
+health: 1000
+speed: 4.0
 accel: 0.1
 drag: 0.03
-lowAltitude: true
+lowAltitude: false
 engineOffset: 13
-buildSpeed: 1.4
+buildSpeed: 10
 buildBeamOffset: 12
-mineSpeed: 11
+mineSpeed: 20
 mineTier: 5
 weapons: [
   {
-    name: deve-weapon
+    name: intensity-weapon
     top: false
     x: 10
     y: 0
     reload: 10
+    rotate: true
     recoil: 3
-    mirror: true
     shootSound: lasershoot
-    shake: 4.35
+    shake: 0.25
     bullet: {
       type: LaserBoltBulletType
-      damage: 650
-      buildingDamageMultiplier: 5.69
-      speed: 10
-      lifetime: 85
+      damage: 25
+      buildingDamageMultiplier: 0.01
+      speed: 5
+      lifetime: 40
       collidesTeam: true
-      healPercent: 500
+      healPercent: 5
       frontColor: ffffff
       backColor: 98ffa9
     }

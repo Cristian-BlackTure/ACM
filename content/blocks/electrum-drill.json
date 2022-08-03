@@ -3,8 +3,8 @@
 	"description": "Uses power to suck up ores using magnets.",
 	"type": "Drill",
 	"size": 3,
-	"tier": 4,
-	"drillTime": 50,
+	"tier": 5,
+	"drillTime": 10,
 	"consumes": {
 		"power": 3.0,
 		"liquid": {
@@ -14,7 +14,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "electrum", "amount": 80 },
+		{ "item": "electrum", "amount": 40 },
 		{ "item": "silicon", "amount": 40 },
 		{ "item": "graphite", "amount": 20 }
 	],

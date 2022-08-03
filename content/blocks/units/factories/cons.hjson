@@ -1,0 +1,30 @@
+type: Reconstructor
+size: 16
+constructTime: 52600
+liquidCapacity: 2400
+consumes: {
+  power: 32.8
+    items: {
+      items: [
+        silicon/1500
+        graphite/1500
+        titanium/2000
+        thorium/1000
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 17.6
+  }
+}
+upgrades: [
+  [deve, hp]
+]
+requirements: [
+  silicon/2000
+  titanium/1000
+  thorium/1000
+  phase-fabric/1000
+  surge-alloy/120
+]
+category: units

@@ -1,0 +1,8 @@
+name: Hyper Cyrofluid
+temperature: -99999.9
+flammability: 0
+viscosity: 0.55
+heatCapacity: 0
+explosiveness: 0
+effect: freezing
+color: 47e6f0

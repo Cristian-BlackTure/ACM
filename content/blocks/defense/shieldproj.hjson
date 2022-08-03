@@ -1,0 +1,30 @@
+name: Electro Force Projector
+type: DirectionalForceProjector
+health: 7500
+size: 3
+radius: 300
+shieldHealth: 50000
+cooldownNormal: 1000
+consumes: {
+  power: 1.75
+  items: {
+    items: [
+      silicon/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  lead/75
+  silicon/25
+  titanium/35
+  surge-alloy/25
+  electrum/15
+]
+hasItems: true
+itemCapacity: 0
+phaseUseTime: 0.1
+phaseRadiusBoost: 10
+category: defense
+research: force-projector

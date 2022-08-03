@@ -1,0 +1,32 @@
+name: Hyper Reactor
+type: NuclearReactor
+size: 3
+health: 20000
+itemCapacity: 10
+liquidCapacity: 5
+itemDuration: 100
+fuelItem: matterialmatter
+powerProduction: 5000
+consumes: {
+  liquid: {
+    liquid: hypercyro
+    amount: 0.50
+  }
+  items: {
+    items: [
+      matterialmatter/1
+    ]
+  }
+}
+requirements: [
+  lead/1550
+  supsilicon/10
+  titanium/1360
+  thorium/1220
+  plastanium/750
+  supsurge/100
+  electrum/100
+  matterialmatter/1
+]
+category: power
+research: thorium-reactor

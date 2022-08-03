@@ -16,7 +16,7 @@ weapons: [
   x: 0
   y: 0
   reload: 30
-  rotate: false
+  rotate: true
   alternate: true
   mirror: false
   top: true
@@ -27,7 +27,7 @@ weapons: [
     frontColor: FFAA5F
     backColor: FFAA5F
     trailColor: FFAA5F
-    speed: 100
+    speed: 12
     damage: 25
     lifetime: 40
     width: 10

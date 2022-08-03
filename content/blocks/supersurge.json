@@ -1,31 +1,33 @@
 type: GenericCrafter
-name: Matterial Generator
-description: amog us
+name: Super Surge Smelter
+description: Uses Super Stuff To Create Super Surge.
 liquidCapacity: 25
-size: 2
+size: 3
 hasPower: true
 hasLiquids: false
 hasItems: true
-craftTime: 60
+craftTime: 30
 updateEffect: smeltsmoke
 consumes: {
 	power: 4
 	items: {
 		items: [
-		supsurge/1
-                supsilicon/10
+		copper/5
+                titanium/5
+                supsilicon/1
+                lead/5
 	     	]
     		}
 		}
 		
 		requirements: [
-		copper/85
-		electrum/35
-		titanium/15
-		silicon/15
+		copper/500
+		lead/120
+		titanium/60
+		silicon/60
 		]
 		category: crafting
 		research: silicon-smelter
 		idleSound: respawning
 		idleSoundVolume: 0.6
-		outputItem:  matterialmatter/3
+		outputItem:  supsurge/10

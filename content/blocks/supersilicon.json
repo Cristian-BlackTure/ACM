@@ -1,26 +1,27 @@
 type: GenericCrafter
-name: Matterial Generator
-description: amog us
+name: Super Silicon Crucible
+description: Oh No.
 liquidCapacity: 25
-size: 2
+size: 3
 hasPower: true
 hasLiquids: false
 hasItems: true
-craftTime: 60
+craftTime: 20
 updateEffect: smeltsmoke
 consumes: {
-	power: 4
+	power: 6
 	items: {
 		items: [
-		supsurge/1
-                supsilicon/10
+		pyratite/5
+                coal/5
+                sand/5
 	     	]
     		}
 		}
 		
 		requirements: [
 		copper/85
-		electrum/35
+		lead/35
 		titanium/15
 		silicon/15
 		]
@@ -28,4 +29,4 @@ consumes: {
 		research: silicon-smelter
 		idleSound: respawning
 		idleSoundVolume: 0.6
-		outputItem:  matterialmatter/3
+		outputItem:  supsilicon/10

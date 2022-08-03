@@ -27,7 +27,7 @@
             speed: 8
             width: 5
             height: 5
-            lifetime: 240
+            lifetime: 120
         }
     }]
 "abilities": [
