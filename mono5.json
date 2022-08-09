@@ -1,0 +1,49 @@
+name: Poly T5
+type: flying
+flying: true
+defaultController: BuilderAI
+defaultController: DefenderAI
+alwaysFlee: false
+buildRadius: 1000
+hitSize: 15
+health: 1500
+speed: 5.0
+accel: 0.1
+drag: 0.03
+lowAltitude: false
+engineOffset: 13
+buildSpeed: 10
+buildBeamOffset: 12
+mineSpeed: 20
+mineTier: 6
+weapons: [
+  {
+    name: intensity-weapon
+    top: false
+    x: 10
+    y: 0
+    reload: 10
+    rotate: true
+    recoil: 3
+    shootSound: lasershoot
+    shake: 0.25
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 25
+      buildingDamageMultiplier: 0.01
+      speed: 5
+      lifetime: 40
+      collidesTeam: true
+      healPercent: 5
+      frontColor: ffffff
+      backColor: 98ffa9
+    }
+  }
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    reload: 40
+    amount: 15
+  }
+]
