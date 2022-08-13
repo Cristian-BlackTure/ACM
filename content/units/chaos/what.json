@@ -1,0 +1,112 @@
+{
+    "name": What The Fuck
+    "singleTarget": true,
+	"lightRadius": 300,
+    "type": "legs",
+	"speed": 10.0,
+	"hitSize": 10,
+	"health": 50000000000,
+	"outlineRadius": 0,
+    "legCount": 12,
+    "drownTimeMultiplier": 99999999999999,
+	"canDrown": false,
+    "groundLayer": 87,
+    "legPairOffset": 3,
+    "legLength": 75,
+    "legBaseOffset": 8,
+    "legExtension": -20,
+    "landShake": 0,
+    "legSpeed": 0.19,
+    "legLengthScl": 0.93,
+    "rippleScale": 3,
+    "legSplashDamage": 700,
+    "legSplashRange": 95,
+    "visualElevation": 0.75,
+    "allowLegStep": true,
+    "hovering": true,
+    "commandLimit": 8,
+	"armor": 50000,
+	"drag": 0.2,
+	"range": 450,
+	"maxRange": 450,
+	"flying": false,
+	"targetAir": true,
+	"rotateSpeed": 1.5,
+	"immunities": [
+    "tarred",
+    "melting",
+    "corroded",
+    "freezing",
+    "blasted",
+    "slow",
+    "burning",
+    "wet",
+    "muddy",
+    "sapped", 
+    "disarmed",
+    "shocked",
+    "electrified",
+    "spore-slowed"
+	],
+
+weapons: [
+{
+  name: deve-weapon
+  top: false
+  x: 75
+  y: 1
+  shootY: 11
+  reload: 5
+  recoil: 5
+  rotate: false
+  shake: 1  
+  shootSound: lasershoot 
+  bullet: {
+    type: LaserBoltBulletType
+    speed: 10
+    damage: 150
+    lifetime: 100
+    width: 10
+    height: 10
+    ammoMultiplier: 3
+}
+}
+  {
+    name: deve-laser
+    top: false
+    x: 0
+    rotate: false
+    mirror: true
+    y: 0
+    reload: 10
+    recoil: 2
+    shootY: 4
+    shootSound: laser
+    shake: 0
+    bullet: {
+      type: LaserBulletType
+      damage: 1000
+      lifetime: 150
+      width: 500
+      height: 500
+      speed: 0
+      shootStatus: slow
+      shootStatusDuration: bullet.lifetime + shoot.firstShotDelay
+      healPercent: 100
+      recoil: 0.5
+      length: 900
+    }
+  }
+]
+
+
+"abilities": [
+        {
+            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "radius": 128,
+            "regen": 128,
+            "max": 1400,
+            "cooldown": 30
+            }
+        ]
+     }
