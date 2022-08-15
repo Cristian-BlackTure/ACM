@@ -1,0 +1,42 @@
+name: H²D² Sprayer
+description: Uses H²D² Gas To Stun And Kill Enemies
+type: itemTurret
+requirements: [
+graphite/570
+silicon/1200
+surge-alloy/100
+thorium/720
+matterialmatter/230
+electrum/350
+] 
+ammoTypes: {
+  electrum: {
+   type: LaserBulletType
+    length: 120
+    damage: 2500
+    width: 30
+    lifetime: 120
+    lightningSpacing: 40
+    lightningLength: 12
+    lightningDelay: 1.0
+    lightningLengthRand: 21
+    lightningDamage: 65
+    lightningAngleRand: 30
+    largeHit: true
+    shootEffect: greenLaserCharge
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 2
+    sideLength: 2
+    colors: [ffffff, ffffff, ffffff]
+  }
+}
+reloadTime: 120
+shots: 3
+burstSpacing: 3
+inaccuracy: 0.2
+range: 230
+size: 3
+health: 2500
+research: lancer
+category: turret
