@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Plasma ",
+	"description": "This Material Is Outputted By Hyper Reactor As 'Waste' But can be used in some turrets.",
+	"cost": 2.5,
+	"color": "800080"
+}
