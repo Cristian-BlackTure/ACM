@@ -1,0 +1,8 @@
+name: Plasma Gas
+temperature: 150000
+flammability: 5000
+viscosity: 0.55
+heatCapacity: 3000000
+explosiveness: 5000
+effect: burning
+color: ffffff
