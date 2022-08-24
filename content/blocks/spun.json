@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Super Surge Uncompressor
 description: Uses Surge-Alloy to make Electro Ingots.
 liquidCapacity: 25
-size: 4
+size: 3
 hasPower: true
 hasLiquids: false
 hasItems: true
