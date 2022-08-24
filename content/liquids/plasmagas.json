@@ -3,6 +3,7 @@ temperature: 150000
 flammability: 5000
 viscosity: 0.55
 heatCapacity: 3000000
+gas: true
 explosiveness: 5000
 effect: burning
 color: ffffff
