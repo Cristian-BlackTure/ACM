@@ -8,7 +8,7 @@ type: ItemTurret
  cooldown: 0.1 
  restitution: 0.04 
  reloadTime: 90 
- shots: 5
+ shots: 1 
  recoilAmount: 2 
  ammoUseEffect: casing3 
  shootEffect: hitLancer 
@@ -33,8 +33,8 @@ type: ItemTurret
        sizeFrom: 24 
        sizeTo: 0 
        colorFrom: f3e979 
-       colorTo: f3e979
-       region: exotic-mod-diamond-wide
+       colorTo: f3e979 
+       region: exotic-mod-diamond-wide 
      } 
      hitEffect: railHit 
      updateEffectSeg: 75 
@@ -53,7 +53,7 @@ type: ItemTurret
        sizeTo: 0 
        colorFrom: 6f7fe8 
        colorTo: 6f7fe8 
-       region: exotic-mod-diamond-wide
+       region: exotic-mod-diamond-wide 
      } 
      hitEffect: railHit 
      updateEffectSeg: 75 
@@ -68,4 +68,4 @@ type: ItemTurret
    surge-alloy/450 
  ] 
  category: turret 
- research: meltdown
+ research: spectre
