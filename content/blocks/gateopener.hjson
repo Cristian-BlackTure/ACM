@@ -1,5 +1,3 @@
-name: Gateway Opener
-description: Legends say it was used to open gates across galaxies
 type: ItemTurret 
  targetAir: true 
  targetGround: true 
