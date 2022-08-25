@@ -34,6 +34,7 @@ type: ItemTurret
        sizeTo: 0 
        colorFrom: f3e979 
        colorTo: f3e979
+       region: exotic-mod-diamond-wide
      } 
      hitEffect: railHit 
      updateEffectSeg: 75 
@@ -52,6 +53,7 @@ type: ItemTurret
        sizeTo: 0 
        colorFrom: 6f7fe8 
        colorTo: 6f7fe8 
+       region: exotic-mod-diamond-wide
      } 
      hitEffect: railHit 
      updateEffectSeg: 75 
